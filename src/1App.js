@@ -8,7 +8,7 @@ function App() {
       <h1>Silbenauswahl</h1>
       <p>Lies vor, klicke und finde lustige Wörter.</p>
       <div className="button-container">
-        <SyllableButton index={0} />
+        <SyllableButton index={0} /> 
         <SyllableButton index={1} />
         <SyllableButton index={2} />
       </div>
