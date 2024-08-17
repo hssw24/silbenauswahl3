@@ -41,9 +41,6 @@ function App() {
         <SyllableButton index={0} onSpeak={speakSyllable} />
         <SyllableButton index={1} onSpeak={speakSyllable} />
         <SyllableButton index={2} onSpeak={speakSyllable} />
-        <SyllableButton index={0} onSpeak={speakSyllable} />
-        <SyllableButton index={1} onSpeak={speakSyllable} />
-        <SyllableButton index={2} onSpeak={speakSyllable} />
       </div>
       <p>Sprachausgabe ist wirklich schrottig!</p>
     </div>
