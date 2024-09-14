@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const syllables = [
-  ["M", "B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "X", "Z", "SCH", "ST", "SP"],
-  ["AU", "A", "E", "I", "O", "U", "EI", "IE", "AU", "EU"],
-  ["S", "B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "X", "Z", "CH", "SCH", "ST"],
+  ["M", "B", "D", "F", "G", "H", "J", "K", "L", "N", "P", "R", "S", "T", "V", "W", "X", "Z", "SCH", "ST", "SP"],
+  ["AU", "A", "E", "I", "O", "U", "EI", "IE", "EU"],
+  ["S", "B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "T", "V", "W", "X", "Z", "CH", "SCH", "ST"],
     ];
 
 function SyllableButton({ index, onSpeak }) {
