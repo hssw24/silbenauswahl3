@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const syllables = [
-  ["BA", "BE", "BI", "BO", "BU", "DA", "DE", "DI", "DO", "DU", "FA", "FE", "FI", "FO", "FU", "GA", "GE", "GI", "GO", "GU", "HA", "HE", "HI", "HO", "HU", "JA", "JE", "JI", "JO", "JU"],
-  ["KA", "KE", "KI", "KO", "KU", "LA", "LE", "LI", "LO", "LU", "MA", "ME", "MI", "MO", "MU", "NA", "NE", "NI", "NO", "NU", "PA", "PE", "PI", "PO", "PU", "RA", "RE", "RI", "RO", "RU"],
-  ["SA", "SE", "SI", "SO", "SU", "TA", "TE", "TI", "TO", "TU", "VA", "VE", "VI", "VO", "VU", "WA", "WE", "WI", "WO", "WU", "ZA", "ZE", "ZI", "ZO", "ZU", "PI", "MA", "PA", "PO", "LA"]
-  ];
+  ["M", "B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "X", "Z", "SCH", "ST", "SP"],
+  ["AU", "A", "E", "I", "O", "U", "EI", "IE", "AU", "EU"],
+  ["S", "B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "X", "Z", "CH", "SCH", "ST"],
+    ];
 
 function SyllableButton({ index, onSpeak }) {
   const [currentSyllable, setCurrentSyllable] = useState(syllables[index][0]);
